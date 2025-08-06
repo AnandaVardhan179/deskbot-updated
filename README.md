@@ -16,36 +16,6 @@ DeskBot is an AI-powered desktop assistant built using **Java Spring Boot** (bac
 
 ---
 
-deskbot/
-├── deskbot-api/                         # Java Spring Boot backend
-│   ├── notes.db                         # SQLite database file
-│   ├── pom.xml                          # Maven dependencies and build config
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/deskbot/deskbot_api/
-│   │   │   │       ├── CommandController.java     # For command execution API
-│   │   │   │       ├── Note.java                  # Note entity with JPA
-│   │   │   │       ├── NoteController.java        # Note REST APIs
-│   │   │   │       ├── NoteRepository.java        # Spring Data JPA repository
-│   │   │   │       └── DeskbotApiApplication.java # Main Spring Boot starter
-│   │   │   └── resources/
-│   │   │       └── application.properties         # DB connection & JPA settings
-│   │   └── test/                                  # (Optional) Unit test directory
-│
-├── frontend/                           # React (with optional Tauri integration)
-│   ├── package.json                    # React project dependencies
-│   ├── public/
-│   │   └── index.html                  # Root HTML
-│   ├── src/
-│   │   ├── App.tsx                     # Main app entry point
-│   │   ├── StickyNotes.tsx            # Sticky notes page
-│   │   └── components/
-│   │       └── Note.tsx               # Individual note card component
-│   └── vite.config.ts / tauri.conf.js # If using Tauri for desktop build
-│
-├── .gitignore                          # Ignored files (e.g., node_modules, .idea)
-└── README.md                           # Project overview and setup guide
 
 
 
