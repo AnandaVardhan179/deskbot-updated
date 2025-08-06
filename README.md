@@ -21,30 +21,30 @@ DeskBot is an AI-powered desktop assistant built using **Java Spring Boot** (bac
 
 
 
+---
+## 🛠 Tech Stack
+--**Java 17**
 
-🛠 Tech Stack
-Java 17
+- **Spring Boot 3**
 
-Spring Boot 3
+**SQLite with JPA**
 
-SQLite with JPA
+**React.js (TypeScript)**
 
-React.js (TypeScript)
+**Tauri.js (for desktop packaging)**
+---
 
-Tauri.js (for desktop packaging)
+---
 
+## 📦 Future Scope
+**Add voice command support 🎙️**
 
+**System usage stats (RAM/CPU) display 📊**
 
+**Download manager for organizing files 📁**
 
-📦 Future Scope
-Add voice command support 🎙️
-
-System usage stats (RAM/CPU) display 📊
-
-Download manager for organizing files 📁
-
-Reminder and alarm functionality ⏰
-
-🙌 Author
+**Reminder and alarm functionality ⏰**
+---
+## 🙌 Author
 Ananda Vardhan Chekuru
 GitHub: @AnandaVardhan179
