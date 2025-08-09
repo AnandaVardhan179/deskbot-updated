@@ -4,14 +4,15 @@ import Note from '../components/Note';
 const StickyNotes = () => {
   const [notes, setNotes] = useState([]);
   const [content, setContent] = useState('');
-  const [color, setColor] = useState('yellow'); // store color name
+  const [color, setColor] = useState('yellow');
 
-  // Map color names to hex values for rendering
+
   const colorMap: Record<string, string> = {
     pink: "#f8bbd0",
     blue: "#bbdefb",
     yellow: "#fff9c4",
-    green: "#c8e6c9"
+    green: "#c8e6c9",
+    orange: "#FEA405"
   };
 
   const fetchNotes = async () => {
@@ -63,6 +64,7 @@ const StickyNotes = () => {
         <option value="green">Green</option>
         <option value="blue">Blue</option>
         <option value="pink">Pink</option>
+        <option value="orange">Orange</option>
       </select>
       <br />
       <button onClick={addNote} style={{ marginTop: '10px' }}>Save Note</button>

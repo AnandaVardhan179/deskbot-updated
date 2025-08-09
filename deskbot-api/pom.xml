@@ -8,8 +8,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.4</version> <!-- ⚠️ Recommend downgrading to stable 3.2.4 -->
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>3.5.4</version>
+		<relativePath/>
 	</parent>
 
 	<groupId>com.deskbot</groupId>
@@ -64,7 +64,7 @@
 			<version>6.5.2.Final</version>
 		</dependency>
 
-		<!-- ✅ Hibernate Community Dialects (for SQLite support) -->
+
 		<dependency>
 			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-community-dialects</artifactId>
